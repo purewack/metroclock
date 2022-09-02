@@ -105,7 +105,7 @@ void setup() {
   //while(!USBComposite);
   tempoChange(130,4);
   gpio_set_mode(GPIOB,10,GPIO_OUTPUT_PP);
-  gpio_set_mode(GPIOB,11,GPIO_OUTPUT_PP);
+  gpio_set_mode(GPIOB,11,GPIO_OUTPUT_OD);
   
 //  gpio_set_mode(GPIOA,0,GPIO_INPUT_PU);
 //  gpio_set_mode(GPIOA,1,GPIO_INPUT_PU);
